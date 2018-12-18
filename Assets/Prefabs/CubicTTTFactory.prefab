@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1464697362561748}
+  m_IsPrefabAsset: 1
+--- !u!1 &1464697362561748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4636049630100758}
+  - component: {fileID: 114321495162715058}
+  m_Layer: 0
+  m_Name: CubicTTTFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4636049630100758
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464697362561748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114321495162715058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464697362561748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c6ee68425dc47ca850f325f3ef6a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSize: 3
+  ySize: 3
+  zSize: 3
+  winNumber: 3
+  solverType: 1
+  p1: 0
+  p2: 1
+  p1Piece: 2
+  p2Piece: 1
+  block: {fileID: 1786310507675266, guid: 44abff32dc1a7483688ba5a1cc0adcda, type: 2}
+  winMaterial: {fileID: 2100000, guid: 4c72a3e773c514f9a8ad624eff4b4731, type: 2}
+  loseMaterial: {fileID: 2100000, guid: 6d5e70f9d23c54195a95ff6212259ab5, type: 2}
+  tieMaterial: {fileID: 2100000, guid: c166cb5b877be4b7c8e2e4ed94a12c5f, type: 2}
+  undecidedMaterial: {fileID: 2100000, guid: 210f93038e15a4104b1f0a02b5db7287, type: 2}
+  selectedMaskColor: {r: 0, g: 1, b: 1, a: 0.19607843}
+  defaultMaskColor: {r: 1, g: 1, b: 1, a: 0.039215688}
+  promptText: {fileID: 0}
+  playButton: {fileID: 0}
+  xInputField: {fileID: 0}
+  yInputField: {fileID: 0}
+  zInputField: {fileID: 0}
+  loggerContent: {fileID: 0}
+  loggerFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
